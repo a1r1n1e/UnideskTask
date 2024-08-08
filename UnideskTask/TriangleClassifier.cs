@@ -3,7 +3,7 @@
     public static class TriangleClassifier
     {
 
-        public static double MaxAcceptableDoubleValue = Math.Sqrt(double.MaxValue) / 2;
+        public static readonly double MaxAcceptableDoubleValue = Math.Sqrt(double.MaxValue) / 2;
 
         public const double DefaultPrecision = 0.0000000001;
 
